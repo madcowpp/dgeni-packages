@@ -1,3 +1,8 @@
+# Note:
+This is not the original dgeni-packages repository. I tweaked this one by adding a controller docType to the ngdoc package index.js.
+This is the only change in comparison to the current master ([see commit here](https://github.com/angular/dgeni-packages/tree/7178e9eb599aed1ee9663bfa7ef47eefe302dbb4) of the original [dgeni-packages repository](https://github.com/angular/dgeni-packages).
+If you don't need a controller docType you will be better off using the original.
+
 # Dgeni Packages
 
 This repository contains a collection of Dgeni **Packages** that can be used by the Dgeni documentation

@@ -31,7 +31,7 @@ describe('ngdoc package', function() {
 
 
   it("should compute the path of components from their attributes", function(done) {
-    var docTypes = ['service', 'provider', 'directive', 'input', 'function', 'filter', 'type'];
+    var docTypes = ['service', 'provider', 'directive', 'input', 'function', 'filter', 'type', 'controller'];
     var docs = docTypes.map(function(docType) {
       return { docType: docType, area: 'AREA', module: 'MODULE', name: 'NAME' };
     });
@@ -67,7 +67,7 @@ describe('ngdoc package', function() {
 
 
   it("should compute the path of component groups from their attributes", function(done) {
-    var groupTypes = ['service', 'provider', 'directive', 'input', 'function', 'filter', 'type'];
+    var groupTypes = ['service', 'provider', 'directive', 'input', 'function', 'filter', 'type', 'controller'];
     var docs = groupTypes.map(function(groupType) {
       return { docType: 'componentGroup', area: 'AREA', groupType: groupType, moduleName: 'MODULE' };
     });
